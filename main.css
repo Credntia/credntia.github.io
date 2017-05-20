@@ -1,0 +1,132 @@
+html {
+  background-color: #FFF;
+}
+
+body {
+  font-family: 'FreightSans Pro';
+  color: #4B4C4C;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 16px;
+  width: 160px;
+  margin: auto;
+}
+
+.content {
+  max-width: 816px;
+  margin: 0 auto;
+  min-height: 38vh;
+}
+
+.button {
+  font-family: 'FreightSans Pro';
+  font-weight: bold;
+  text-decoration: none;
+  background: #4fb4fe;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  border-radius: 50px;
+}
+
+.social a {
+  color: #4b4c4c;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.socialImage {
+  padding-top: 40px;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.row {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.gap-top-bottom {
+	box-sizing: border-box;
+}
+
+.gap-top {
+	padding-bottom: 0px;
+	box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 40px;
+  font-size: 21px;
+  line-height: 40px;
+  font-weight: normal;
+  text-align: left;
+}
+
+footer {
+  padding-top: 60px;
+}
+
+.copyright {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.terms {
+  font-size: 15px;
+  text-decoration: none;
+  color: #4FB4FE;
+}
+
+@font-face {
+  font-family: 'FreightSans Pro';
+  src: url('fonts/freightsans-semibold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSans Pro';
+  src: url('fonts/freightsans-medium.woff');
+  font-weight: normal;
+  font-style: normal;
+}
