@@ -1,5 +1,9 @@
 const appId = "r4yeksa5";
 
+window.Intercom('boot', {
+  app_id: appId,
+});
+
 (function(){
   var w=window;
   var ic=w.Intercom;
@@ -26,7 +30,3 @@ const appId = "r4yeksa5";
     w.addEventListener('load',l,false);}
   }
 })()
-
-window.Intercom('boot', {
-  app_id: appId,
-});
