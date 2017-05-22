@@ -1,5 +1,9 @@
 const appId = "r4yeksa5";
 
+window.intercomSettings = {
+  app_id: appId
+};
+
 (function(){
   var w=window;
   var ic=w.Intercom;
@@ -27,6 +31,4 @@ const appId = "r4yeksa5";
   }
 })();
 
-window.Intercom('boot', {
-  app_id: appId,
-});
+window.Intercom('boot', window.intercomSettings);
