@@ -120,6 +120,10 @@ em {
 	font-style: italic;
 }
 
+.logo {
+	width: 160px;
+}
+
 /* layout */
 .wrapper {
 	min-height: 100vh;
@@ -176,17 +180,12 @@ em {
 }
 
 /* social icons */
-.social a {
-	font-family: 'Icons';
+.socialImage {
+	width: 24px;
+	height: 24px;
 	color: #4b4c4c;
 	margin: 0 10px;
 	display: inline-block;
-}
-
-.social a svg {
-	width: 20px;
-	height: 20px;
-	margin: 0 auto;
 }
 
 @media screen and (max-width: 414px) {
@@ -606,23 +605,14 @@ em {
 	clear: both;
 }
 
-/* fonts */
-@font-face {
-	font-family: 'Icons';
-	src: url('../fonts/icons.woff') format('woff'),
-	url('../fonts/icons.woff2') format('woff2');
-}
-
 @font-face {
 	font-family: 'Freight';
 	font-weight: 500;
-	src: url('../fonts/freight-medium.woff') format('woff'),
-	url('../fonts/freight-medium.woff2') format('woff2');
+	src: url('../fonts/freightsans-medium.woff');
 }
 
 @font-face {
 	font-family: 'Freight';
 	font-weight: 600;
-	src: url('../fonts/freight-semibold.woff') format('woff'),
-	url('../fonts/freight-semibold.woff2') format('woff2');
+	src: url('../fonts/freightsans-semibold.woff');
 }
