@@ -53,6 +53,12 @@ footer {
   margin: auto;
 }
 
+.terms {
+  max-width: 816px;
+  margin: 0 auto;
+  min-height: 38vh;
+}
+
 .content {
   max-width: 816px;
   margin: 0 auto;
@@ -125,7 +131,7 @@ footer {
   text-decoration: none;
 }
 
-.terms {
+.termsLink {
   font-size: 15px;
   text-decoration: none;
   color: #4FB4FE;
