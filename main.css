@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'FreightSans Pro';
+  src: url('fonts/freightsans-semibold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightSans Pro';
+  src: url('fonts/freightsans-medium.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: #FFF;
 }
@@ -5,10 +19,32 @@ html {
 body {
   font-family: 'FreightSans Pro';
   color: #4B4C4C;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin: auto;
   text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 40px;
+  font-size: 21px;
+  line-height: 40px;
+  font-weight: normal;
+  text-align: left;
+}
+
+footer {
+  padding-top: 60px;
 }
 
 .logo {
@@ -76,57 +112,21 @@ body {
 }
 
 .gap-top-bottom {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .gap-top {
-	padding-bottom: 0px;
-	box-sizing: border-box;
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-}
-
-h6 {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-p {
-  padding-top: 40px;
-  font-size: 21px;
-  line-height: 40px;
-  font-weight: normal;
-  text-align: left;
-}
-
-footer {
-  padding-top: 60px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
 }
 
 .copyright {
-    font-size: 15px;
-    text-decoration: none;
+  font-size: 15px;
+  text-decoration: none;
 }
 
 .terms {
   font-size: 15px;
   text-decoration: none;
   color: #4FB4FE;
-}
-
-@font-face {
-  font-family: 'FreightSans Pro';
-  src: url('fonts/freightsans-semibold.woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FreightSans Pro';
-  src: url('fonts/freightsans-medium.woff');
-  font-weight: normal;
-  font-style: normal;
 }
