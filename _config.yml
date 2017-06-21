@@ -24,7 +24,6 @@ github_username:  credntia
 intercom: gs1pm8wa
 header_pages:
   - index.md
-  - about.md
 
 # Build settings
 markdown: kramdown
@@ -32,13 +31,12 @@ gems:
   - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - old
