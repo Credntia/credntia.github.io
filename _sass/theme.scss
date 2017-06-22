@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Freight", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -47,3 +47,15 @@ $on-laptop:        800px !default;
   "theme/layout",
   "theme/syntax-highlighting"
 ;
+
+@font-face {
+	font-family: 'Freight';
+	font-weight: 500;
+	src: url('fonts/freightsans-medium.woff');
+}
+
+@font-face {
+	font-family: 'Freight';
+	font-weight: 600;
+	src: url('fonts/freightsans-semibold.woff');
+}
