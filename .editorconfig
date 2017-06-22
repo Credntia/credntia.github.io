@@ -15,6 +15,6 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 
 # 2 space indentation
-[*.yaml, *.yml]
+[*.yaml, *.yml, *.scss, *.css]
 indent_style = space
 indent_size = 2

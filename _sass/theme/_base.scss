@@ -19,9 +19,9 @@ body {
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
 }
 
@@ -82,7 +82,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $header-font-weight;
+  text-align: center;
 }
 
 
@@ -93,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $brand-color;
   text-decoration: none;
-
+  /*
   &:visited {
     color: darken($brand-color, 15%);
   }
@@ -110,6 +111,7 @@ a {
       text-decoration: underline;
     }
   }
+  */
 }
 
 
