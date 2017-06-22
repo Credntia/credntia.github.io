@@ -44,8 +44,7 @@ $on-laptop:        800px !default;
 // Import partials.
 @import
   "theme/base",
-  "theme/layout",
-  "theme/syntax-highlighting"
+  "theme/layout"
 ;
 
 @font-face {
