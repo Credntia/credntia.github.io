@@ -28,7 +28,6 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-theme: credntia-jekyll-theme
 gems:
   - jekyll-feed
 
