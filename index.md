@@ -9,4 +9,6 @@ layout: default
 
 We're an identity company with a focus on access control. We provide simple, secure, and effective identity solutions for our customers.
 
+<br>
+
 Our new website is coming soon. For now, download our app and connect with our socials.
