@@ -123,7 +123,6 @@ em {
 
 .logo {
 	width: 160px;
-	text-align: center;
 }
 
 /* layout */
@@ -141,10 +140,6 @@ em {
 	max-width: 700px;
 	margin: 0 auto;
 	min-height: 38vh;
-}
-
-.page-title {
-	text-align: center;
 }
 
 .content h1 {
@@ -207,6 +202,18 @@ em {
 /* text layout */
 .text-center {
 	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
 }
 
 /* layout */
