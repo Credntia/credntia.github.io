@@ -5,18 +5,20 @@
 
 <body>
 
-	{% include header.html %}
+	<main class="wrapper column align-center gap" role="main">
 
-	<main class="page-content" aria-label="Content">
-		<div class="wrapper">
+		{% include header.html %}
+
+		<div class="content">
 			{{ content }}
 		</div>
+
+		{% include footer.html %}
+
 	</main>
 
-	{% include footer.html %}
+	{% include intercom.html %}
 
 </body>
-
-{% include intercom.html %}
 
 </html>
