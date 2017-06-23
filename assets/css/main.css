@@ -608,11 +608,11 @@ em {
 @font-face {
 	font-family: 'Freight';
 	font-weight: 500;
-	src: url('fonts/freightsans-medium.woff');
+	src: url('../fonts/freightsans-medium.woff');
 }
 
 @font-face {
 	font-family: 'Freight';
 	font-weight: 600;
-	src: url('fonts/freightsans-semibold.woff');
+	src: url('../fonts/freightsans-semibold.woff');
 }
