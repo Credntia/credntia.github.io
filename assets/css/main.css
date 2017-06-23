@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
 
+p {
+	padding-bottom: 30px;
+}
+
 body {
 	line-height: 1;
 }
