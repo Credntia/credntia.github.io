@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	text-align: center;
 	font-size: 38px;
 }
 
@@ -141,7 +142,7 @@ em {
 	min-height: 38vh;
 }
 
-.content .title {
+.content h1 {
 	font-size: 50px;
 }
 
@@ -150,7 +151,7 @@ em {
 }
 
 @media screen and (max-width: 414px) {
-	.content .title {
+	.content h1 {
 		line-height: 1.5;
 	}
 
@@ -608,11 +609,11 @@ em {
 @font-face {
 	font-family: 'Freight';
 	font-weight: 500;
-	src: url('../fonts/freightsans-medium.woff');
+	src: url('fonts/freightsans-medium.woff');
 }
 
 @font-face {
 	font-family: 'Freight';
 	font-weight: 600;
-	src: url('../fonts/freightsans-semibold.woff');
+	src: url('fonts/freightsans-semibold.woff');
 }
