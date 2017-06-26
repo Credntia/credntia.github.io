@@ -22,9 +22,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://credntia.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: credntia
 github_username:  credntia
-intercom: r4yeksa5
 header_pages:
   - index.md
+
+intercom_prod_key: r4yeksa5
+intercom_staging_key: gs1pm8wa
 
 # Build settings
 markdown: kramdown
