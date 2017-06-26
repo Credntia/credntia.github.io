@@ -25,8 +25,9 @@ github_username:  credntia
 header_pages:
   - index.md
 
-intercom_prod_key: r4yeksa5
-intercom_staging_key: gs1pm8wa
+intercom:
+  prod_key: r4yeksa5
+  staging_key: gs1pm8wa
 
 # Build settings
 markdown: kramdown
