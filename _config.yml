@@ -31,7 +31,8 @@ intercom:
 
 # Build settings
 markdown: kramdown
-gems:
+
+plugins:
   - jekyll-feed
 
 # Exclude from processing.
