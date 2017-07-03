@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Terms & Conditions
-permalink: /terms-conditions/
+permalink: /terms-of-service/
+redirect_from: "/terms-conditions"
 ---
 
 Your license to the Credntia Application (the “Licensed Application”) is subject to your prior acceptance of this Licensed Application End User License Agreement, including the Licensed Application privacy statement, as updated from time to time, which is incorporated herein by reference (the “EULA”). The Licensed Application is licensed, not sold, to you. You agree that your downloading and/or use of the Licensed Application signifies your acceptance of all of the terms and conditions of this EULA. If you do not accept any of the terms and conditions of this EULA you may NOT download or use the Licensed Application. The license granted to you under this EULA is granted by Credntia LLC (f/k/a No I.D. LLC), the owner of the Licensed Application (“Licensor”). Licensor reserves all rights in and to the Licensed Application not expressly granted to you under this EULA. The terms of this EULA will govern any upgrades provided by Licensor that replace and/or supplement the original Licensed Application, unless such upgrade is accompanied by a separate end user license agreement or license in which case the terms of that end user license agreement or license will govern.
