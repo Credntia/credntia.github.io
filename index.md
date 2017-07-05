@@ -3,6 +3,7 @@ layout: home
 title: Your Identity Wherever You Are
 redirect_from:
   - "/about/"
+  - "/faq/"
 ---
 
 **Access control is broken** with current solutions today.
