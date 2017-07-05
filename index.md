@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Your Identity Wherever You Are
+redirect_from:
+  - "/about/"
 ---
 
 **Access control is broken** with current solutions today.
