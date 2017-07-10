@@ -6,6 +6,7 @@ redirect_from:
   - "/faq/"
   - "/press/"
   - "/business/"
+  - "/support/"
 ---
 
 **Access control is broken** with current solutions today.
