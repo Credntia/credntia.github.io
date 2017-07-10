@@ -4,6 +4,8 @@ title: Your Identity Wherever You Are
 redirect_from:
   - "/about/"
   - "/faq/"
+  - "/press/"
+  - "/business/"
 ---
 
 **Access control is broken** with current solutions today.
