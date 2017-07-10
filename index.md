@@ -3,6 +3,7 @@ layout: home
 title: Your Identity Wherever You Are
 redirect_from:
   - "/about/"
+  - "/blog/"
   - "/faq/"
   - "/press/"
   - "/business/"
