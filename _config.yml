@@ -20,10 +20,16 @@ description: > # this means to ignore newlines until "baseurl:"
   We're an identity company with a focus on access control.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://credntia.com" # the base hostname & protocol for your site, e.g. http://example.com
+port: 8000
+
 twitter_username: credntia
 github_username:  credntia
 header_pages:
   - index.md
+
+google_analytics:
+  prod_key: UA-82383119-1
+  staging_key: test
 
 intercom:
   prod_key: r4yeksa5
