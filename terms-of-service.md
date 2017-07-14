@@ -6,6 +6,7 @@ redirect_from:
   - /terms-conditions/
   - /terms/
   - /license-agreement/
+  - /termsofservice/
 ---
 
 **Last Updated: July 6, 2017**

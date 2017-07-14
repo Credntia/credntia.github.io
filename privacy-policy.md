@@ -4,6 +4,7 @@ title: Privacy Policy
 permalink: /privacy-policy/
 redirect_from:
   - /privacy/
+  - /privacypolicy/
 ---
 
 **Last Updated: July 6, 2017**
