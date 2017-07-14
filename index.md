@@ -2,12 +2,12 @@
 layout: home
 title: Your Identity Wherever You Are
 redirect_from:
-  - "/about/"
-  - "/blog/"
-  - "/faq/"
-  - "/press/"
-  - "/business/"
-  - "/support/"
+  - /about/
+  - /blog/
+  - /faq/
+  - /press/
+  - /business/
+  - /support/
 ---
 
 **Access control is broken** with current solutions today.

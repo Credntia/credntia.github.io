@@ -3,9 +3,9 @@ layout: page
 title: Terms of Service
 permalink: /terms-of-service/
 redirect_from:
-  - "/terms-conditions/"
-  - "/terms/"
-  - "/license-agreement/"
+  - /terms-conditions/
+  - /terms/
+  - /license-agreement/
 ---
 
 **Last Updated: July 6, 2017**
@@ -14,7 +14,7 @@ BY ACCEPTING THESE TERMS OF SERVICE OR OTHERWISE USING THE SERVICE (AS DEFINED B
 
 ## Scope
 
-These Terms of Service shall apply to your use of the [Credntia Website](credntia.com) website as well as the mobile app (if applicable) and the services offered by each (“Credntia”, and “Service”). These Terms of Service represent the parties’ entire understanding regarding the Service and shall control over any different or additional terms unless such terms are in writing and agreed to by the parties.
+These Terms of Service shall apply to your use of the [Credntia Website](http://credntia.com) website as well as the mobile app (if applicable) and the services offered by each (“Credntia”, and “Service”). These Terms of Service represent the parties’ entire understanding regarding the Service and shall control over any different or additional terms unless such terms are in writing and agreed to by the parties.
 
 ## Modifications
 
@@ -30,7 +30,7 @@ A valid credit card is required for paying accounts. The Service is billed in ad
 
 ## Modifications to the Service and Prices
 
-Credntia reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. Prices of all Services, including but not limited to monthly subscription plan fees to the Service, are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the [Credntia Website](credntia.com) or the Service itself. Credntia shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the Service.
+Credntia reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. Prices of all Services, including but not limited to monthly subscription plan fees to the Service, are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the [Credntia Website](http://credntia.com) or the Service itself. Credntia shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the Service.
 
 ## Use of Service
 

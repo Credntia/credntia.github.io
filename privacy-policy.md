@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
 redirect_from:
-  - "/privacy/"
+  - /privacy/
 ---
 
 **Last Updated: July 6, 2017**
