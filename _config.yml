@@ -8,6 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 url: http://credntia.com
 email: info@credntia.com
 copyright: "© 2017 Credntia LLC"
@@ -28,20 +39,7 @@ social:
   linked-in: credntia
   angel: credntia
   github: credntia
-defaults:
-- scope:
-    path: ''
-    type: pages
-    permalink: "/:title/"
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: posts
-    permalink: "/blog/:title/"
-  values:
-    layout: post
-baseurl:
+baseurl: 
 exclude:
 - Gemfile
 - Gemfile.lock
