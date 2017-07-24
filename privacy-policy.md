@@ -1,10 +1,10 @@
 ---
-layout: page
 title: Privacy Policy
-permalink: /privacy-policy/
+permalink: "/privacy-policy/"
+layout: page
 redirect_from:
-  - /privacy/
-  - /privacypolicy/
+- "/privacy/"
+- "/privacypolicy/"
 ---
 
 **Last Updated: July 6, 2017**

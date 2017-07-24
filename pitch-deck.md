@@ -1,10 +1,11 @@
 ---
-layout: page
 title: Pitch Deck
-permalink: /pitch-deck/
+permalink: "/pitch-deck/"
+layout: page
 redirect_to:
-  - /assets/pitch-deck.pdf
+- "/assets/pitch-deck.pdf"
 redirect_from:
-  - /pitchdeck/
-  - /pitch/
+- "/pitchdeck/"
+- "/pitch/"
 ---
+

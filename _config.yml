@@ -1,44 +1,43 @@
-# Welcome to Jekyll!
-
+---
 title: Credntia
-copyright: © 2017 Credntia LLC
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+copyright: "© 2017 Credntia LLC"
 email: info@credntia.com
-description: > # this means to ignore newlines until "baseurl:"
-  We're an identity company with a focus on access control.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://credntia.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: 'We''re an identity company with a focus on access control.
+
+'
+baseurl: ''
+url: http://credntia.com
 port: 8000
-
 twitter_username: credntia
-github_username:  credntia
+github_username: credntia
 header_pages:
-  - index.md
-
+- index.md
 google_analytics:
   prod_key: UA-82383119-1
   staging_key: test
-
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
-
-# Build settings
 markdown: kramdown
-
 gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-
+- jekyll-feed
+- jekyll-redirect-from
 whitelist:
-  - jekyll-redirect-from
-
-# Exclude from processing.
+- jekyll-redirect-from
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - old
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- old

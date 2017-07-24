@@ -1,14 +1,14 @@
 ---
-layout: home
 title: Your Identity Wherever You Are
+layout: home
 redirect_from:
-  - /home/
-  - /about/
-  - /blog/
-  - /faq/
-  - /press/
-  - /business/
-  - /support/
+- "/home/"
+- "/about/"
+- "/blog/"
+- "/faq/"
+- "/press/"
+- "/business/"
+- "/support/"
 ---
 
 **Access control is broken** with current solutions today.
