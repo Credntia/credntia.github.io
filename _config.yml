@@ -2,10 +2,6 @@
 title: Credntia
 timezone: UTC
 collections:
-  blog:
-    title: Posts
-    output: true
-    permalink: blog/:path/
   posts:
     title: Posts
     output: true
