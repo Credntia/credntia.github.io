@@ -8,22 +8,26 @@ collections:
   uploads:
     title: Uploads
     output: true
-copyright: "© 2017 Credntia LLC"
+url: http://credntia.com
 email: info@credntia.com
+copyright: "© 2017 Credntia LLC"
 description: 'We''re an identity company with a focus on access control.
 
 '
-url: http://credntia.com
-twitter_username: credntia
-github_username: credntia
-header_pages:
-- index.md
 google_analytics:
   prod_key: UA-82383119-1
   staging_key: test
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
+social:
+  facebook: credntia
+  twitter: credntia
+  instagram: credntiaapp
+  medium: credntia
+  linked-in: credntia
+  angel: credntia
+  github: credntia
 baseurl: 
 exclude:
 - Gemfile
@@ -42,11 +46,3 @@ permalink: "/blog/:title/"
 port: 8000
 whitelist:
 - jekyll-redirect-from
-social:
-  facebook: credntia
-  twitter: credntia
-  instagram: credntiaapp
-  medium: credntia
-  linked-in: credntia
-  angel: credntia
-  github: credntia
