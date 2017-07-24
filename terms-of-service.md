@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
 permalink: "/terms-of-service/"
-position: 2
+position: 3
 layout: page
 redirect_from:
 - "/terms-conditions/"

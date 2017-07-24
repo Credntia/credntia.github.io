@@ -1,6 +1,6 @@
 ---
 title: Your Identity Wherever You Are
-position: 0
+position: 1
 layout: home
 redirect_from:
 - "/home/"

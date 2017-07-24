@@ -1,7 +1,7 @@
 ---
 title: Pitch Deck
 permalink: "/pitch-deck/"
-position: 4
+position: 5
 redirect_to:
 - "/uploads/pitch-deck.pdf"
 redirect_from:
