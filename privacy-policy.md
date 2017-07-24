@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 permalink: "/privacy-policy/"
+position: 3
 layout: page
 redirect_from:
 - "/privacy/"
