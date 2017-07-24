@@ -43,5 +43,10 @@ port: 8000
 whitelist:
 - jekyll-redirect-from
 social:
+  facebook: credntia
   twitter: credntia
+  instagram: credntiaapp
+  medium: credntia
+  linked-in: credntia
+  angel: credntia
   github: credntia
