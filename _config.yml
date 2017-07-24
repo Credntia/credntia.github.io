@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    subtitle: Add a brief description of your post
   uploads:
     title: Uploads
     output: true
