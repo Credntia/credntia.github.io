@@ -28,7 +28,20 @@ social:
   linked-in: credntia
   angel: credntia
   github: credntia
-baseurl: 
+defaults:
+- scope:
+    path: ''
+    type: pages
+    permalink: "/:title/"
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+    permalink: "/blog/:title/"
+  values:
+    layout: post
+baseurl:
 exclude:
 - Gemfile
 - Gemfile.lock
