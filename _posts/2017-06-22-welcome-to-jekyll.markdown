@@ -2,6 +2,8 @@
 title: Welcome to Jekyll!
 date: 2017-06-22 18:48:00 Z
 permalink: "/blog/welcome-to-jekyll"
+categories:
+- development
 tags:
 - jekyll
 - update
