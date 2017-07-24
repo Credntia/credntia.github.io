@@ -13,7 +13,7 @@ email: info@credntia.com
 description: 'We''re an identity company with a focus on access control.
 
 '
-baseurl: ''
+baseurl: 
 url: http://credntia.com
 port: 8000
 twitter_username: credntia
@@ -41,3 +41,4 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - old
+permalink: pretty
