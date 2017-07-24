@@ -13,9 +13,7 @@ email: info@credntia.com
 description: 'We''re an identity company with a focus on access control.
 
 '
-baseurl: 
 url: http://credntia.com
-port: 8000
 twitter_username: credntia
 github_username: credntia
 header_pages:
@@ -26,12 +24,7 @@ google_analytics:
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
-markdown: kramdown
-gems:
-- jekyll-feed
-- jekyll-redirect-from
-whitelist:
-- jekyll-redirect-from
+baseurl: 
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -41,4 +34,14 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - old
+gems:
+- jekyll-feed
+- jekyll-redirect-from
+markdown: kramdown
 permalink: "/blog/:title/"
+port: 8000
+whitelist:
+- jekyll-redirect-from
+social:
+  twitter: credntia
+  github: credntia
