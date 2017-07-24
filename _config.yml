@@ -41,4 +41,4 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - old
-permalink: "/blog/:path/"
+permalink: "/blog/:title/"
