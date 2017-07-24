@@ -1,6 +1,0 @@
----
-title: What is Up?
-date: 2017-07-24 05:43:00 Z
----
-
-Hello There
