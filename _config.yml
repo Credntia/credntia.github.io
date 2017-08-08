@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  team_members:
+    title: Team Members
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -23,6 +26,13 @@ defaults:
     layout: post
     subtitle: 
     author: 
+- scope:
+    path: ''
+    type: team_members
+  values:
+    layout: page
+    position: 
+    image: 
 url: http://credntia.com
 email: info@credntia.com
 description: 'We''re an identity company with a focus on access control.
