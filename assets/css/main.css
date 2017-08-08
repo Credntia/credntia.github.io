@@ -191,6 +191,29 @@ em {
 	display: inline-block;
 }
 
+/* social */
+.social {
+	margin: 0 10px;
+}
+
+.social a {
+    font-family: 'FontAwesome';
+	font-size: 24px;
+	margin: 0 5px;
+	color: #4b4c4c;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+    transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    -webkit-transition: color .3s ease-in;
+}
+
+.social a:hover {
+	color: #4fb4fe;
+}
+
 @media screen and (max-width: 414px) {
 	#navigation.row {
 		flex-direction: column;
@@ -618,4 +641,10 @@ em {
 	font-family: 'Freight';
 	font-weight: 600;
 	src: url('../fonts/freightsans-semibold.woff');
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.woff') format('woff'),
+		 url('../fonts/fontawesome-webfont.woff2') format('woff2');
 }

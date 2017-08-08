@@ -1,0 +1,29 @@
+socials:
+- title: Facebook
+  username: credntia
+  url: http://facebook.com/
+  icon: "\uf09a"
+- title: Twitter
+  username: credntia
+  url: http://twitter.com/
+  icon: "\uf099"
+- title: Instagram
+  username: credntiaapp
+  url: http://instagram.com/
+  icon: "\uf16d"
+- title: Medium
+  username: credntia
+  url: https://medium.com/@
+  icon: "\uf23a"
+- title: LinkedIn
+  username: credntia
+  url: https://www.linkedin.com/company/
+  icon: "\uf0e1"
+- title: GitHub
+  username: credntia
+  url: https://github.com/
+  icon: "\uf09b"
+- title: Angel List
+  username: credntia
+  url: https://angel.co/
+  icon: "\uf209"

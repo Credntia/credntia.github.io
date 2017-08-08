@@ -2,25 +2,8 @@
 
 	<a href="https://itunes.apple.com/us/app/credntia/id928731223?mt=8" class="button app-download" target="_blank">Download</a>
 	<nav class="social gap-top-bottom">
-
-		<a href="https://facebook.com/{{ site.social.facebook }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/facebook.svg" | relative_url }}" alt="Facebook Logo">
-		</a>
-		<a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/twitter.svg" | relative_url }}" alt="Twitter Logo">
-		</a>
-		<a href="https://www.instagram.com/{{ site.social.instagram }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/instagram.svg" | relative_url }}" alt="Instagram Logo">
-		</a>
-		<a href="https://www.linkedin.com/company/{{ site.social.linked-in }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/linked-in.svg" | relative_url }}" alt="LinkedIn Logo">
-		</a>
-		<a href="https://medium.com/@{{ site.social.medium }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/medium.svg" | relative_url }}" alt="Medium Logo">
-		</a>
-		<a href="https://angel.co/{{ site.social.angel }}" target="_blank" class="social svg">
-			<img class="socialImage" src="{{ "/assets/images/angel.svg" | relative_url }}" alt="Angel List Logo">
-		</a>
-
+		{% for social in site.data.info.socials %}
+			<a href={{ social.url | append: social.username | escape }} alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
+		{% endfor %}
 	</nav>
 </nav>
