@@ -14,45 +14,30 @@ defaults:
     type: pages
   values:
     layout: page
+    subtitle: 
 - scope:
     path: ''
     type: posts
   values:
+    permalink: "/blog/:title/"
     layout: post
+    subtitle: 
+    author: 
 url: http://credntia.com
 email: info@credntia.com
-copyright: "© 2017 Credntia LLC"
 description: 'We''re an identity company with a focus on access control.
 
 '
+copyright: "© 2017 Credntia LLC"
 google_analytics:
   tracking_id: UA-82383119-1
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
-social:
-  facebook: credntia
-  twitter: credntia
-  instagram: credntiaapp
-  medium: credntia
-  linked-in: credntia
-  angel: credntia
-  github: credntia
 baseurl: 
-exclude:
-- Gemfile
-- Gemfile.lock
-- node_modules
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- old
 gems:
 - jekyll-feed
 - jekyll-redirect-from
 markdown: kramdown
-permalink: "/blog/:title/"
+permalink: pretty
 port: 8000
-whitelist:
-- jekyll-redirect-from
