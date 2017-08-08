@@ -23,6 +23,7 @@ $font-size-text-body: 21px;
 $font-size-text-title: 50px;
 $font-size-text-footer: 17px;
 $font-size-button: 15px;
+$font-size-social-icon: 24px;
 
 
 $header-height: 160px;
@@ -94,7 +95,7 @@ $button-height: 48px;
 
 	a {
 		font-family: $font-family-social-icons;
-		font-size: 24px;
+		font-size: $font-size-social-icon;
 		margin: 0 10px;
 		color: $color-dark-grey;
 		display: inline-block;
