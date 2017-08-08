@@ -5,5 +5,3 @@ position: 4
 team_title: Advisor
 image: "/uploads/mike-oakman.jpg"
 ---
-
-{{ page.title }} is our {{ page.team_title }}

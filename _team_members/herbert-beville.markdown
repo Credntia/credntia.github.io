@@ -5,5 +5,3 @@ position: 3
 team_title: Founder
 image: "/uploads/herbert-beville.jpg"
 ---
-
-{{ page.title }} is our {{ page.team_title }}
