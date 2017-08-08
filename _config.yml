@@ -30,7 +30,7 @@ defaults:
     path: ''
     type: team_members
   values:
-    permalink: "/team/:path/"
+    permalink: "/team/:title/"
     layout: team_member
     team_title: 
     image: 
