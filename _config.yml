@@ -39,7 +39,7 @@ email: info@credntia.com
 description: 'We''re an identity company with a focus on access control.
 
 '
-logo: /assets/logo.svg
+logo: "/assets/logo.svg"
 copyright: "© 2017 Credntia LLC"
 google_analytics:
   tracking_id: UA-82383119-1
