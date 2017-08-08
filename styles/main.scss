@@ -1,6 +1,8 @@
 ---
 ---
 
+@charset "utf-8";
+
 $color-white: #FFFFFF;
 $color-dark-grey: #4B4C4C;
 $color-blue: #4FB4FE;
@@ -27,7 +29,6 @@ $logo-height: 160px;
 $content-max-width: 688px;
 
 
-@charset "utf-8";
 @import 'fonts';
 @import 'defaults';
 @import 'media';
