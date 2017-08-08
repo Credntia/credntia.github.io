@@ -60,6 +60,11 @@ iframe, object, embed {
 }
 
 /* basic setup */
+
+h1, h2, h3, h4, h5, h6, body, p {
+	font-family: $font-family-text;
+}
+
 body {
 	background: $color-white;
 	margin: 0 auto;
@@ -67,7 +72,6 @@ body {
 	width: 100%;
 	height: 100%;
 	line-height: 2;
-	font-family: $font-family-text;
 	font-size: $font-size-text-body;
 	color: $color-dark-grey;
 	-webkit-font-smoothing: antialiased;
@@ -76,7 +80,6 @@ body {
 
 /* typography */
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font-family-text;
 	font-weight: bold;
 }
 
