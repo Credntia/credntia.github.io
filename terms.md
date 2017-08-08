@@ -1,10 +1,9 @@
 ---
 title: Terms of Service
-permalink: "/terms-of-service/"
 position: 3
 redirect_from:
 - "/terms-conditions/"
-- "/terms/"
+- "/terms-of-service/"
 - "/license-agreement/"
 - "/termsofservice/"
 ---

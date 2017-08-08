@@ -1,7 +1,7 @@
 footers:
 - title: Terms of Service
-  url: /terms-of-service/
+  url: /terms/
 - title: Privacy Policy
-  url: /privacy-policy/
-- title: We're Hiring
+  url: /privacy/
+- title: Jobs
   url: https://angel.co/credntia/jobs

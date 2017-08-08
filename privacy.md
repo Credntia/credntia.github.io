@@ -1,9 +1,8 @@
 ---
 title: Privacy Policy
-permalink: "/privacy-policy/"
 position: 4
 redirect_from:
-- "/privacy/"
+- "/privacy-policy/"
 - "/privacypolicy/"
 ---
 
