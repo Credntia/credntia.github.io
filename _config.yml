@@ -32,7 +32,7 @@ defaults:
   values:
     permalink: "/team/:path/"
     layout: page
-    position: 
+    team_title: 
     image: 
 url: http://credntia.com
 email: info@credntia.com
