@@ -31,7 +31,7 @@ defaults:
     type: team_members
   values:
     permalink: "/team/:path/"
-    layout: page
+    layout: team_member
     team_title: 
     image: 
 url: http://credntia.com

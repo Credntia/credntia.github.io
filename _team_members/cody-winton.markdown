@@ -5,5 +5,3 @@ position: 1
 team_title: CEO
 image: "/uploads/cody-winton.jpg"
 ---
-
-{{ page.title }} is our {{ page.team_title }}

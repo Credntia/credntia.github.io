@@ -5,5 +5,3 @@ position: 3
 team_title: Lead Engineer
 image: "/uploads/mehedi-hasan-khan.jpg"
 ---
-
-{{ page.title }} is our {{ page.team_title }}

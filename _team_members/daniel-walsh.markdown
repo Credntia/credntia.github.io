@@ -5,5 +5,3 @@ position: 2
 team_title: CMO
 image: "/uploads/daniel-walsh.jpg"
 ---
-
-{{ page.title }} is our {{ page.team_title }}
