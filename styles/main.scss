@@ -1,130 +1,43 @@
-/*
-Filename: main.css
-Written By: Jesse Winton
-*/
+---
+---
 
-/* css reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+$color-white: #FFFFFF;
+$color-dark-grey: #4B4C4C;
+$color-blue: #4FB4FE;
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, main {
-	display: block;
-}
 
-p {
-	padding-bottom: 30px;
-}
+$font-family-logo-text: "CircularStd", sans-serif;
+$font-family-text: "FreightSansPro", sans-serif;
+$font-family-social-icons: "FontAwesome";
 
-body {
-	line-height: 1;
-}
+$font-size-text-h1: 42px;
+$font-size-text-h2: 33px;
+$font-size-text-h3: 30px;
+$font-size-text-h4: 27px;
+$font-size-text-h5: 24px;
+$font-size-text-h6: 20px;
+$font-size-text-body: 21px;
 
-ol, ul {
-	list-style: none;
-}
+$font-size-text-title: 50px;
+$font-size-text-footer: 17px;
 
-blockquote, q {
-	quotes: none;
-}
 
-blockquote::before, blockquote::after,
-q::before, q::after {
-	content: '';
-	content: none;
-}
+$header-height: 160px;
+$logo-height: 160px;
+$content-max-width: 688px;
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-iframe, object, embed {
-	max-width: 100%;
-}
+@charset "utf-8";
+@import 'fonts';
+@import 'defaults';
+@import 'media';
 
-/* basic setup */
-body {
-	background: #fff;
-	margin: 0 auto;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	line-height: 2;
-	font-family: 'Freight', sans-serif;
-	font-weight: 500;
-	font-size: 21px;
-	color: #4b4c4c;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
-/* typography */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Freight';
-	font-weight: 600;
-}
-
-h1 {
-	font-size: 42px;
-}
-
-h2 {
-	font-size: 33px;
-}
-
-h3 {
-	font-size: 30px;
-}
-
-h4 {
-	font-size: 27px;
-}
-
-h5 {
-	font-size: 24px;
-}
-
-h6 {
-	font-size: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #4fb4fe;
-}
-
-b,
-strong {
-	font-weight: 600;
-}
-
-i,
-em {
-	font-style: italic;
-}
+// base
+// ----
 
 .logo {
-	width: 160px;
+	height: $logo-height;
 }
 
 /* layout */
@@ -134,44 +47,34 @@ em {
 
 /* header */
 .page-header {
-	height: 150px;
+	height: $header-height;
 }
 
 /* content */
 .content {
-	max-width: 700px;
+	max-width: $content-max-width;
 	margin: 0 auto;
 	min-height: 38vh;
 }
 
 .title {
-	font-size: 50px;
+	font-size: $font-size-text-title;
 }
 
 .copyright {
-	font-size: 17px;
-}
-
-@media screen and (max-width: 414px) {
-	.content h1 {
-		line-height: 1.5;
-	}
-
-	.copyright {
-		margin-top: -80px;
-	}
+	font-size: $font-size-text-footer;
 }
 
 /* buttons */
 .button {
-	background: #4fb4fe;
+	background: $color-blue;
 	display: inline-block;
 	text-align: center;
-	font-weight: 600;
+	font-weight: bold;
 	font-size: 15px;
 	text-transform: uppercase;
 	margin: 0 auto;
-	color: #fff;
+	color: $color-white;
 	height: 50px;
 	line-height: 50px;
 	padding: 0 20px;
@@ -186,7 +89,7 @@ em {
 .socialImage {
 	width: 24px;
 	height: 24px;
-	color: #4b4c4c;
+	color: $color-dark-grey;
 	margin: 0 10px;
 	display: inline-block;
 }
@@ -194,33 +97,23 @@ em {
 /* social */
 .social {
 	margin: 0 10px;
-}
 
-.social a {
-    font-family: 'FontAwesome';
-	font-size: 24px;
-	margin: 0 5px;
-	color: #4b4c4c;
-	display: inline-block;
-	text-align: center;
-	cursor: pointer;
-    transition: color .3s ease-in;
-    -moz-transition: color .3s ease-in;
-    -o-transition: color .3s ease-in;
-    -webkit-transition: color .3s ease-in;
-}
-
-.social a:hover {
-	color: #4fb4fe;
-}
-
-@media screen and (max-width: 414px) {
-	#navigation.row {
-		flex-direction: column;
+	a {
+		font-family: $font-family-social-icons;
+		font-size: 24px;
+		margin: 0 5px;
+		color: $color-dark-grey;
+		display: inline-block;
+		text-align: center;
+		cursor: pointer;
+		transition: color .3s ease-in;
+		-moz-transition: color .3s ease-in;
+		-o-transition: color .3s ease-in;
+		-webkit-transition: color .3s ease-in;
 	}
 
-	#navigation .button {
-		margin: 0;
+	a:hover {
+		color: $color-blue;
 	}
 }
 
@@ -242,25 +135,6 @@ em {
 }
 
 /* layout */
-.border {
-	border: 1px solid #ddd !important;
-}
-
-.border-top {
-	border-top: 1px solid #ddd !important;
-}
-
-.border-right {
-	border-right: 1px solid #ddd !important;
-}
-
-.border-bottom {
-	border-bottom: 1px solid #ddd !important;
-}
-
-.border-left {
-	border-left: 1px solid #ddd !important;
-}
 
 .position-relative {
 	position: relative;
@@ -414,19 +288,6 @@ em {
 
 .no-space .grid-one-quarter {
 	flex: 0 0 25%;
-}
-
-@media screen and (max-width: 414px) {
-	.grid-one-half,
-	.grid-one-third,
-	.grid-one-quarter,
-	.grid-one-fifth {
-		display: block;
-		width: 100%;
-		margin: 0 auto;
-		flex: none;
-		margin-bottom: 50px;
-	}
 }
 
 .align-right {
@@ -608,43 +469,9 @@ em {
 	transform: translateX(-50%);
 }
 
-.border-top {
-	border-top: 1px solid #ddd;
-}
-
-.border-right {
-	border-top: 1px solid #ddd;
-}
-
-.border-bottom {
-	border-bottom: 1px solid #ddd;
-}
-
-.border-left {
-	border-left: 1px solid #ddd;
-}
-
 .clear::before,
 .clear::after {
 	content: '';
 	display: block;
 	clear: both;
-}
-
-@font-face {
-	font-family: 'Freight';
-	font-weight: 500;
-	src: url('freightsans-medium.woff');
-}
-
-@font-face {
-	font-family: 'Freight';
-	font-weight: 600;
-	src: url('freightsans-semibold.woff');
-}
-
-@font-face {
-	font-family: 'FontAwesome';
-	src: url('fontawesome-webfont.woff') format('woff'),
-		 url('fontawesome-webfont.woff2') format('woff2');
 }

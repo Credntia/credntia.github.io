@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+    
+    .content h1 {
+        line-height: 1.5;
+    }
+    
+    .copyright {
+        margin-top: -80px;
+    }
+    
+    #navigation .row {
+        flex-direction: column;
+    }
+    
+    #navigation .button {
+        margin: 0;
+    }
+    
+    .grid-one-half,
+    .grid-one-third,
+    .grid-one-quarter,
+    .grid-one-fifth {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        flex: none;
+        margin-bottom: 50px;
+    }
+}
