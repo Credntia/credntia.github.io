@@ -3,10 +3,5 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-{% if jekyll.environment == 'production' %}
-ga('create', '{{ site.google_analytics.prod_key }}', 'auto');
-{% else %}
-ga('create', '{{ site.google_analytics.staging_key }}', 'auto');
-{% endif %}
-
+ga('create', '{{ site.google_analytics.tracking_id }}', 'auto');
 ga('send', 'pageview');

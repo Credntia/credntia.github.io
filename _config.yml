@@ -26,8 +26,7 @@ description: 'We''re an identity company with a focus on access control.
 
 '
 google_analytics:
-  prod_key: UA-82383119-1
-  staging_key: test
+  tracking_id: UA-82383119-1
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
