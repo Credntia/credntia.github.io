@@ -5,4 +5,4 @@ position: CMO
 image: "/uploads/daniel-walsh.jpg"
 ---
 
-Daniel Walsh is our CMO
+{{ page.title }} is our {{ page.position }}

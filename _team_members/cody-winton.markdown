@@ -5,4 +5,4 @@ position: CEO
 image: "/uploads/cody-winton.jpg"
 ---
 
-Cody Winton is our CEO
+{{ page.title }} is our {{ page.position }}
