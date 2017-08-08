@@ -22,11 +22,13 @@ $font-size-text-body: 21px;
 
 $font-size-text-title: 50px;
 $font-size-text-footer: 17px;
+$font-size-button: 15px;
 
 
 $header-height: 160px;
 $logo-height: 160px;
 $content-max-width: 688px;
+$button-height: 48px;
 
 
 @import 'fonts';
@@ -72,27 +74,18 @@ $content-max-width: 688px;
 	display: inline-block;
 	text-align: center;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: $font-size-button;
 	text-transform: uppercase;
 	margin: 0 auto;
 	color: $color-white;
-	height: 50px;
-	line-height: 50px;
-	padding: 0 20px;
-	border-radius: 40px;
+	height: $button-height;
+	line-height: $button-height;
+	padding: 0 $button-height/2;
+	border-radius: $button-height/2;
 }
 
 #navigation .button {
 	margin-right: 40px;
-}
-
-/* social icons */
-.socialImage {
-	width: 24px;
-	height: 24px;
-	color: $color-dark-grey;
-	margin: 0 10px;
-	display: inline-block;
 }
 
 /* social */
@@ -102,7 +95,7 @@ $content-max-width: 688px;
 	a {
 		font-family: $font-family-social-icons;
 		font-size: 24px;
-		margin: 0 5px;
+		margin: 0 10px;
 		color: $color-dark-grey;
 		display: inline-block;
 		text-align: center;
