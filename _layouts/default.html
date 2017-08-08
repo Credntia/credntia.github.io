@@ -4,19 +4,10 @@
 {% include head.html %}
 
 <body>
-
 	<main class="wrapper column align-center gap" role="main">
-
-		{% include header.html %}
-		{{ content }}
-		{% include footer.html %}
-
+		{% include header.html %} {{ content }} {% include footer.html %}
 	</main>
-
-	<script>
-		{% include intercom.js %}
-	</script>
-
+	<script> {% include intercom.js %} </script>
 </body>
 
 </html>

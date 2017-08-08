@@ -1,4 +1,3 @@
-//Set your APP_ID
 var APP_ID = "{{ site.intercom.staging_key }}";
 {% if jekyll.environment == 'production' %}
 	APP_ID = "{{ site.intercom.prod_key }}";

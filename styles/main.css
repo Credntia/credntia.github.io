@@ -634,17 +634,17 @@ em {
 @font-face {
 	font-family: 'Freight';
 	font-weight: 500;
-	src: url('../fonts/freightsans-medium.woff');
+	src: url('freightsans-medium.woff');
 }
 
 @font-face {
 	font-family: 'Freight';
 	font-weight: 600;
-	src: url('../fonts/freightsans-semibold.woff');
+	src: url('freightsans-semibold.woff');
 }
 
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('../fonts/fontawesome-webfont.woff') format('woff'),
-		 url('../fonts/fontawesome-webfont.woff2') format('woff2');
+	src: url('fontawesome-webfont.woff') format('woff'),
+		 url('fontawesome-webfont.woff2') format('woff2');
 }
