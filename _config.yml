@@ -5,9 +5,10 @@ collections:
   posts:
     title: Posts
     output: true
-  team_members:
+  team:
     title: Team Members
     output: false
+    permalink: team
   uploads:
     title: Uploads
     output: true
