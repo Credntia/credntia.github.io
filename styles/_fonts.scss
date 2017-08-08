@@ -7,9 +7,23 @@
 
 @font-face {
 	font-family: 'FreightSansPro';
+    font-weight: normal;
+    font-style: italic;
+	src: url('freightsans-medium-italic.woff');
+}
+
+@font-face {
+	font-family: 'FreightSansPro';
     font-weight: bold;
     font-style: normal;
 	src: url('freightsans-semibold.woff');
+}
+
+@font-face {
+	font-family: 'FreightSansPro';
+    font-weight: bold;
+    font-style: italic;
+	src: url('freightsans-semibold-italic.woff');
 }
 
 @font-face {
