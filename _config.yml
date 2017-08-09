@@ -46,12 +46,12 @@ google_analytics:
 intercom:
   prod_key: r4yeksa5
   staging_key: gs1pm8wa
-sass:
-  sass_dir: styles/
-  style: compressed
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
+sass:
+  sass_dir: styles/
+  style: compressed
 baseurl: 
 markdown: kramdown
 permalink: pretty
